@@ -6,7 +6,7 @@ For this small pair project. We are going to create a reduced version of the twi
 
 - [ ] Create an HTML page in `index.html` which should contain `form` with a `textarea` and submit `button`. Add a `div` underneath which will contain our tweets timeline. The HTML should import `index.js` from `src` folder.
 - [ ] Use preventDefault to prevent the `form` from being submitted. A good way to do it is by setting a `submit` event listener on the `form`.
-- [ ] When we detect a `submit`, take the Tweet from the text area and place it at the top of the timeline underneath.
+- [ ] When we detect a `submit` on the `form` element, take the Tweet from the text area and place it at the top of the timeline underneath.
 - [ ] After a tweet is posted, clear the textarea.
 
 ## Stretch goals
